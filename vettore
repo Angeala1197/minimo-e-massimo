@@ -1,0 +1,40 @@
+//Programma che permette di ottenere il massimo e il minimo da un vettore.
+#include <iostream.h>
+#include <conio.h>
+#include <ctype.h>
+#include <stdlib.h>
+void creo_vect(int A[100],int* n);
+void orden_vect(int A[100], int* n);
+void mostrar_vect(int A[100], int* n);
+int A[100];
+main()
+{
+int n;
+creo_vect(&A[100] ,&n);
+orden_vect(&A[100] ,&n);
+mostrar_vect(&A[100] ,&n);
+getch();
+}
+void creo_vect (int A[100],int* n)
+{
+int i;
+char rpt;
+randommize ();
+cout<<"inserire il numero finale del vettore: ";
+cout<<"\<valore massimo 100> ";cin>>*n;
+cout<<"\Vuoi che il ompter generi i numeri?;
+[S] o [N]"cin>> rpt;
+rpt=toupper (rpt);
+if (rpt== 'N')
+             echo "# minimo-e-massimo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Angeala1197/minimo-e-massimo.git
+git push -u origin master
+                
+             {cout<<"\Ingrese il <<i+1<< valore: <<"cin>> A[i];}
+       else
+            
+
+
