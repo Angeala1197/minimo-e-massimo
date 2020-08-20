@@ -22,19 +22,46 @@ char rpt;
 randommize ();
 cout<<"inserire il numero finale del vettore: ";
 cout<<"\<valore massimo 100> ";cin>>*n;
-cout<<"\Vuoi che il ompter generi i numeri?;
+cout<<"\Vuoi che il computer generi i numeri?;
 [S] o [N]"cin>> rpt;
 rpt=toupper (rpt);
-if (rpt== 'N')
-             echo "# minimo-e-massimo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Angeala1197/minimo-e-massimo.git
-git push -u origin master
-                
-             {cout<<"\Ingrese il <<i+1<< valore: <<"cin>> A[i];}
-       else
-            
+if (rpt=='N')
+             for(i=0; i<=(*n-1); i++)
+             {cout<<"\Inserisci il <<i+1<< valore: <<"cin>> A[i];}
+       else 
+            for(i=0; i<=(*n-1); i++) 
+      {A[i]=random(100)+1;
+      cout<<"\introducendo il "<<i+1<<* valore: "<<[A[i];} 
+cout<<"\i valori introucendo i vettori sono:" <<endl;
+for(i=0;i<=(*n-1); i++)
+               {cout<<""<<A[i]<<"  ";}
+}
+void orden_vect(int A[100],int* n)
+{
+int a,b,temp;
+for(a=0; a<=(*n-1);a++)
+          {
+          for (b=a+1;b<=(*n-1);b++)
+          {
+       if (A[a] > A[b])
+          {
+          temp=A[a]
+          A[a]= A[b]
+          A[b]= temp;
+          }
+       }
+    }
+  }
+  void mostra_vect (int A[100],int* n)
+  {
+  cout<<"\nil massimo valore e': "<<A [(*n-1)]<< "  .";
+  cout<<"\nil minimo valore e': <<"A[0]<<"  .";
+  }
+  
+  
+
+
+      
+      
 
 
